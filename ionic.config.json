@@ -1,7 +1,0 @@
-{
-  "name": "JobJet",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react-vite"
-}
