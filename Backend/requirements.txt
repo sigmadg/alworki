@@ -1,0 +1,14 @@
+Flask==2.3.3
+Flask-CORS==4.0.0
+Flask-SQLAlchemy==3.0.5
+Flask-Migrate==4.0.5
+Flask-Mail==0.9.1
+Werkzeug==2.3.7
+requests==2.32.5
+PyJWT==2.8.0
+torch==2.1.0
+transformers==4.35.0
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+numpy==1.24.3
+accelerate==0.24.1

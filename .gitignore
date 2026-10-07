@@ -1,0 +1,76 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+FlutterApp/android/app/debug
+FlutterApp/android/app/profile
+FlutterApp/android/app/release
+
+# Backend Python
+Backend/venv/
+**/venv/
+**/.venv/
+**/chatbot_env/
+**/__pycache__/
+
+# FrontEnd (Vue)
+FrontEnd/node_modules/
+FrontEnd/dist/
+**/node_modules/
+**/dist/
+
+# Secretos locales (se versiona solo la plantilla)
+.env
+.env.*
+!.env.example
+
+# Binarios y distribuciones descargadas
+*.apk
+*.aab
+**/gradle/wrapper/dists/
+Ejemplo/**/android/gradle-8.5/
+
+# Datos locales del backend (secretos y bases)
+Backend/instance/
+Backend/.alworki-api.pid
+
+# Copias de ejemplo que ya tienen su propio repositorio
+Ejemplo/

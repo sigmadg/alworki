@@ -1,0 +1,94 @@
+{
+  "settings": {
+    "backend": "comfyui",
+    "model": "tinflux13DQ_v10.safetensors",
+    "width": 768,
+    "height": 576,
+    "steps": 20,
+    "cfg_scale": 1,
+    "guidance": 3.5,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "negative_prompt": "text, words, letters, watermark, logo, signature, blurry, ugly, deformed, low quality, jpeg artifacts, oversaturated, duplicate, cropped, nsfw",
+    "style_prefix": "high quality digital illustration for mobile app category card, vibrant colors, clean modern composition, detailed scene, professional lighting, no text, no logos, masterpiece",
+    "output_dir": "assets/images/categories",
+    "comfyui": {
+      "api": "http://127.0.0.1:8188",
+      "unet": "tinflux13DQ_v10.safetensors",
+      "clip_l": "clip_l.safetensors",
+      "t5xxl": "t5xxl_fp8_e4m3fn.safetensors",
+      "vae": "ae.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "categories": [
+    {"id": "plomeria", "label": "Plomería", "scene": "plumber fixing kitchen sink pipes with wrench and toolbox"},
+    {"id": "electricidad", "label": "Electricidad", "scene": "electrician installing light switch and electrical panel with safety gloves"},
+    {"id": "albanileria", "label": "Albañilería", "scene": "bricklayer building cinder block wall with mortar and trowel at construction site"},
+    {"id": "carpinteria", "label": "Carpintería", "scene": "carpenter crafting wooden furniture in workshop with sawdust and hand tools"},
+    {"id": "pintura", "label": "Pintura", "scene": "painter rolling fresh paint on interior living room wall with ladder and paint cans"},
+    {"id": "limpieza", "label": "Limpieza doméstica", "scene": "professional home cleaner with mop and cleaning supplies in bright modern apartment"},
+    {"id": "jardineria", "label": "Jardinería", "scene": "gardener trimming plants and lawn in sunny backyard garden with shears"},
+    {"id": "cerrajeria", "label": "Cerrajería", "scene": "locksmith opening door lock with professional lock picking tools and key duplicates"},
+    {"id": "fumigacion", "label": "Fumigación", "scene": "pest control technician spraying home exterior with protective equipment and tank"},
+    {"id": "impermeabilizacion", "label": "Impermeabilización", "scene": "roofer applying waterproof sealant on flat rooftop under clear sky"},
+
+    {"id": "enfermeria", "label": "Enfermería", "scene": "nurse providing home care with stethoscope and medical kit in cozy living room"},
+    {"id": "cuidadores", "label": "Cuidadores", "scene": "caregiver assisting elderly person with walker in warm home environment"},
+    {"id": "geriatria", "label": "Cuidado geriátrico", "scene": "geriatric care specialist helping senior with daily activities and comfort"},
+    {"id": "fisioterapia", "label": "Fisioterapia", "scene": "physiotherapist guiding patient through rehabilitation exercise on therapy mat"},
+    {"id": "nutricion", "label": "Nutrición", "scene": "nutritionist with fresh vegetables fruits and healthy meal plan on kitchen table"},
+    {"id": "psicologia", "label": "Psicología", "scene": "calm therapy office with comfortable chair plants and soft natural light"},
+    {"id": "primeros_auxilios", "label": "Primeros auxilios", "scene": "first aid kit red cross supplies and emergency training mannequin on table"},
+
+    {"id": "veterinarios", "label": "Veterinarios", "scene": "veterinarian examining friendly dog in clean modern veterinary clinic"},
+    {"id": "paseo_mascotas", "label": "Paseo de mascotas", "scene": "dog walker with multiple happy dogs on leashes in city park pathway"},
+    {"id": "estetica_canina", "label": "Estética canina", "scene": "dog groomer bathing and styling small dog in professional pet salon"},
+    {"id": "adiestramiento", "label": "Adiestramiento", "scene": "dog trainer teaching obedience to golden retriever in outdoor training field"},
+    {"id": "cuidado_gatos", "label": "Cuidado de gatos", "scene": "cat sitter playing with tabby cat in sunny apartment with cat toys"},
+
+    {"id": "nineras", "label": "Niñeras", "scene": "babysitter reading book to smiling child in colorful playroom"},
+    {"id": "apoyo_escolar", "label": "Apoyo escolar", "scene": "tutor helping student with homework at desk with books and laptop"},
+    {"id": "educacion_especial", "label": "Educación especial", "scene": "special education teacher with sensory learning materials in inclusive classroom"},
+    {"id": "cuidado_infantil", "label": "Cuidado infantil", "scene": "childcare provider caring for toddlers in safe bright daycare room"},
+
+    {"id": "ingles", "label": "Clases de inglés", "scene": "english teacher with whiteboard books and conversational learning setup in classroom"},
+    {"id": "otros_idiomas", "label": "Otros idiomas", "scene": "language tutor with flags dictionaries and notebook for multilingual lesson"},
+    {"id": "musica", "label": "Música", "scene": "music teacher with acoustic guitar and sheet music in cozy studio"},
+    {"id": "arte", "label": "Arte y pintura", "scene": "artist painting on canvas with easel brushes and colorful palette in studio"},
+    {"id": "danza", "label": "Danza", "scene": "dance instructor in mirrored studio with ballet barre and wooden floor"},
+    {"id": "clases_particulares", "label": "Clases particulares", "scene": "private tutor explaining math on whiteboard to student at home desk"},
+
+    {"id": "cocina_casera", "label": "Cocina casera", "scene": "home cook preparing traditional mexican meal in warm kitchen with fresh ingredients"},
+    {"id": "reposteria", "label": "Repostería", "scene": "baker decorating beautiful cake with piping bag in pastry kitchen"},
+    {"id": "meal_prep", "label": "Meal prep", "scene": "meal prep containers with balanced healthy portions arranged on kitchen counter"},
+    {"id": "chef_domicilio", "label": "Chef a domicilio", "scene": "private chef plating gourmet dish in client home kitchen"},
+    {"id": "bartender", "label": "Bartender", "scene": "bartender crafting colorful cocktail at home bar with shakers and glasses"},
+
+    {"id": "peluqueria", "label": "Peluquería", "scene": "hair stylist cutting hair in modern salon with mirror and professional tools"},
+    {"id": "barberia", "label": "Barbería", "scene": "barber trimming beard with clippers in classic barbershop with vintage chair"},
+    {"id": "manicure", "label": "Manicure y uñas", "scene": "nail technician doing manicure with polish bottles and nail art tools"},
+    {"id": "maquillaje", "label": "Maquillaje", "scene": "makeup artist applying professional makeup with brushes and palette"},
+    {"id": "masajes", "label": "Masajes", "scene": "spa massage table with candles towels and relaxing wellness atmosphere"},
+
+    {"id": "soporte_tecnico", "label": "Soporte técnico", "scene": "IT technician repairing laptop computer with tools on clean desk"},
+    {"id": "reparacion_celulares", "label": "Reparación de celulares", "scene": "phone repair specialist fixing smartphone screen with precision tools"},
+    {"id": "diseno_web", "label": "Diseño web", "scene": "web designer workspace with dual monitors showing UI mockups and code"},
+    {"id": "marketing_digital", "label": "Marketing digital", "scene": "digital marketing analytics dashboard on laptop with social media icons concept"},
+
+    {"id": "mensajeria", "label": "Mensajería", "scene": "courier delivering package on motorcycle with delivery bag in city street"},
+    {"id": "mudanzas", "label": "Mudanzas", "scene": "movers carrying cardboard boxes and furniture into moving truck"},
+    {"id": "chofer", "label": "Chofer", "scene": "professional driver with clean sedan car keys ready for private transport"},
+    {"id": "mecanico", "label": "Mecánico automotriz", "scene": "auto mechanic working under car hood in garage with tools and lift"},
+
+    {"id": "fotografia", "label": "Fotografía", "scene": "photographer with DSLR camera capturing portrait session with softbox lighting"},
+    {"id": "dj", "label": "DJ", "scene": "DJ mixing music at party with turntables headphones and colorful lights"},
+    {"id": "animacion", "label": "Animación", "scene": "party entertainer with balloons and colorful costume at kids birthday party"},
+    {"id": "decoracion_eventos", "label": "Decoración de eventos", "scene": "event decorator arranging flowers balloons and elegant table setup"},
+    {"id": "catering", "label": "Catering", "scene": "catering buffet with elegant food trays and chafing dishes for event"},
+
+    {"id": "contabilidad", "label": "Contabilidad", "scene": "accountant with calculator laptop spreadsheets and organized financial documents"},
+    {"id": "asesoria_legal", "label": "Asesoría legal", "scene": "lawyer desk with legal books gavel contract documents and professional office"},
+    {"id": "tramites", "label": "Trámites", "scene": "administrative paperwork folders stamps and official documents on organized desk"}
+  ]
+}
